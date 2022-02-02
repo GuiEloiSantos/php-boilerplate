@@ -1,0 +1,29 @@
+{
+    "name": "guieloi/php-boilerplate",
+    "description": "Boilerplate for general php projects",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AppTests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GuiEloiSantos",
+            "email": "gcunhaeloi@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "php": "^8.0",
+        "splitbrain/php-cli": "^1.1",
+        "php-di/php-di": "^6.3",
+        "bramus/router": "^1.6",
+        "symfony/http-foundation": "^6.0"
+    }
+}
